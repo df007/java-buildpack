@@ -20,10 +20,10 @@
 # e.g.  repository_root: "http://example.com/oracle-jre/{platform}/{architecture}"
 ---
 jre:
-  version: 1.8.0_10+
-  repository_root: ""
+  version: 1.8.10_1
+  repository_root: http://localhost:8080/download
 memory_calculator:
-  version: 2.+
+  version: 2.0.2_RELEASE
   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
   stack_threads: 300
   memory_sizes:
